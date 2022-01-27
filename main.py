@@ -14,4 +14,6 @@ client = commands.Bot(command_prefix='#', intents=discord.Intents.all())
 for i in range(len(cogs)):
     cogs[i].setup(client)
 
-client.run("OTM2MjM0Njk2NDkxMjcwMjE0.YfKOgg.Qp4ZvfGS8ohTiogKnrgJPnB9OTM")
+#exchange "Your TOKEN" to your TOKEN
+client.run("Your TOKEN")
+
